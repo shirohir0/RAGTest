@@ -1,0 +1,41 @@
+Company: AuroraFlow is a B2B SaaS platform for procurement analytics and contract lifecycle automation.
+Target customers: Mid-market and enterprise companies with annual procurement spend above 20 million USD.
+Primary buyers: CFO, Head of Procurement, and VP Operations.
+Business value proposition: Reduce procurement leakage, shorten contract cycle time, and improve supplier compliance.
+Core product modules: Spend Intelligence, Contract Copilot, Supplier Risk Monitor, Approval Workflow Engine.
+Spend Intelligence detects maverick spend by comparing PO lines against approved supplier catalogs.
+Contract Copilot drafts redline suggestions based on approved legal playbooks and clause templates.
+Supplier Risk Monitor aggregates sanctions data, ESG signals, and delivery reliability metrics.
+Approval Workflow Engine enforces four-eyes approval for purchases above policy thresholds.
+Main KPI: Procurement Leakage Rate equals off-policy spend divided by total managed spend.
+Main KPI target: Procurement Leakage Rate should stay below 2.5 percent for enterprise tier customers.
+Main KPI: Contract Cycle Time is measured from request submission to final signature.
+Main KPI target: Contract Cycle Time should be below 14 calendar days for standard MSA renewals.
+Main KPI: Supplier On-Time Delivery is calculated as on-time shipments divided by total shipments.
+Main KPI target: Supplier On-Time Delivery should remain above 96 percent.
+Pricing model: Annual subscription plus usage-based fee for document processing volume.
+Starter plan: 60,000 USD per year, up to 50 users, one ERP integration.
+Growth plan: 140,000 USD per year, up to 200 users, three ERP integrations, advanced dashboards.
+Enterprise plan: Custom pricing, unlimited users, SSO, private deployment options.
+Overage policy: Document processing above plan limit is billed at 0.08 USD per page.
+SLA: 99.9 percent monthly API uptime for Growth and Enterprise plans.
+SLA service credits: 10 percent credit for uptime below 99.9 and 25 percent credit for uptime below 99.5.
+Support policy: P1 incidents response time is 15 minutes, P2 is 1 hour, P3 is 4 business hours.
+Incident communication: Status page update every 30 minutes during active P1 incidents.
+Data retention: Operational logs retained for 365 days; model interaction traces retained for 90 days.
+Security baseline: SOC 2 Type II, encryption at rest with AES-256, and TLS 1.2+ in transit.
+PII policy: Personal data in prompts must be masked before persistence in analytics logs.
+Access control: RBAC roles are Viewer, Analyst, Manager, and Admin.
+Manager role can approve purchases up to 250,000 USD; Admin has no approval cap.
+Common objection: Finance teams worry about hallucinated legal language.
+Objection handling: Contract Copilot suggestions are always linked to approved clause sources and confidence scores.
+Pilot playbook: 6-week pilot with success criteria on leakage reduction and cycle-time improvement.
+Pilot success gate: At least 15 percent reduction in leakage and 20 percent faster contract turnaround.
+Renewal strategy: Present ROI report at day 75 with before/after KPI comparison.
+Upsell trigger: If monthly processed pages exceed 85 percent of quota for two consecutive months.
+Churn risk signal: Three consecutive weeks with fewer than five active approvers in workflow module.
+Sales motion: Land with Spend Intelligence, expand into Contract Copilot by quarter two.
+Implementation timeline: Typical go-live in 4 to 8 weeks depending on ERP complexity.
+Integration stack: SAP S/4HANA, Oracle NetSuite, Coupa, and Workday supported.
+Known product limitation: OCR quality degrades on low-resolution scanned contracts under 150 DPI.
+Mitigation: Pre-processing with document enhancement is recommended before ingestion.
